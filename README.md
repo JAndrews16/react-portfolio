@@ -3,7 +3,7 @@
 ## Description
 This is an upgraded and trainsitioned version of my previous portfolio. This applicaiton is now a react app and utilizes various components and pages to function. 
 
-![Application Demo](./public/assets/demo.gif)
+![Application Demo](./assets/demo.gif)
 
 ## Table of Contents
 - [Installation](#Installation)
