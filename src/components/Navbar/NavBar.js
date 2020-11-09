@@ -2,9 +2,6 @@ import React from "react";
 import "./style.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
-//import About from "./pages/About";
-//import Portfolio from "./pages/Portfolio";
-//import Contact from "./pages/Contact";
 
 const navTabBtns = {
   paddingTop: "0%",
@@ -16,7 +13,7 @@ const navTabBtns = {
 const Navbar = () => {
     return ( <>
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-            <a className="navbar-brand" href="./index.html">Juliana Andrews</a>
+            <a className="navbar-brand" href="/about">Juliana Andrews</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
