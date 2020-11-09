@@ -6,6 +6,13 @@ import { Link } from "react-router-dom";
 //import Portfolio from "./pages/Portfolio";
 //import Contact from "./pages/Contact";
 
+const navTabBtns = {
+  paddingTop: "0%",
+  paddingBottom: "0%",
+  marginTop: "10%",
+  fontSize: "18px"
+};
+
 const Navbar = () => {
     return ( <>
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -16,17 +23,17 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item active">
-                    <Link to="/about" className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}>
+                    <Link style={navTabBtns} to="/about" className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}>
                     About
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
+                    <Link style={navTabBtns} to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
                     Portfolio
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/contact" className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+                    <Link style={navTabBtns} to="/contact" className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
                     Contact
                     </Link>
                 </li>

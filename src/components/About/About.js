@@ -17,7 +17,6 @@ const AboutMe = () => {
             <h1 className="hello">Hello, my name is Juliana Andrews</h1>
             <h4>I am a Full Stack Developer located in Kent, WA</h4>
             <img style={ profileImgStyle } src={ profileImg } alt="Juliana Andrews" />
-            <hr />
             <div className="skills">
                 <h4>Skills Include:</h4>
                 <p>HTML5 -- CSS -- JavaScript -- Excel VBA -- Node -- Express -- MySQL -- MongoDB -- React</p>
